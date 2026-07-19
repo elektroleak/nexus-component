@@ -28,7 +28,7 @@ bool Rf6036bComponent::decode_frame_(const RawTimings &raw, uint8_t &out_channel
   // Jedes Paar (HIGH, LOW) ergibt ein Bit: LOW kurz (~1000µs) = 0, LOW lang (~1950µs) = 1
   // Ein sehr langer LOW (>3000µs) ist der Sync-Puls zwischen den Frame-Wiederholungen.
 
-  std::map<uint64_t, int> frame_counts;
+  std::map<uint64_t, int> frame_counts; //test
   uint64_t current_frame_bits = 0;
   uint8_t current_bit_count = 0;
 
