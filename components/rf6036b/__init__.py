@@ -3,7 +3,7 @@ import esphome.config_validation as cv
 from esphome.components import remote_base
 from esphome.const import CONF_ID
 
-CODEOWNERS = ["@dein-github-user"]  # <-- anpassen
+CODEOWNERS = ["@elektroleak"]
 DEPENDENCIES = ["remote_receiver"]
 
 rf6036b_ns = cg.esphome_ns.namespace("rf6036b")

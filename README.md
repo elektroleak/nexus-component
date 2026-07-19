@@ -33,7 +33,7 @@ Bit   7..0   Luftfeuchte (8 Bit)   – direkt in %
 
 ```yaml
 external_components:
-  - source: github://dein-github-user/esphome-rf6036b
+  - source: github://elektroleak/nexus-component
     components: [rf6036b]
 ```
 
