@@ -11,7 +11,7 @@ static const char *const TAG = "rf6036b";
 static const int32_t SYNC_THRESHOLD_US = 3000;
 static const int32_t BIT_THRESHOLD_US  = 1400;
 static const uint8_t FRAME_BITS        = 36;
-static const uint8_t MIN_VALID_FRAMES  = 3;
+static const uint8_t MIN_VALID_FRAMES  = 1;
 
 void Rf6036bComponent::dump_config() {
   ESP_LOGCONFIG(TAG, "RF6036B / Nexus-433 Sensor:");
